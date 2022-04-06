@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DISNEY BLIND TEST</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="nouvelle_partie">Nuevo juego</string>
+    <string name="continuer">Seguir</string>
+    <string name="disney_blind_test">Blind Test Disney</string>
+    <string name="langues">Lengua</string>
+    <string name="quitter">salir</string>
+
+    <string name="francais">Français</string>
+    <string name="anglais">English</string>
+    <string name="espagnol">Español</string>
+    <string name="retour">Regreso</string>
+
+    <string name="ajout_d_un_joueur">Agregar Jugador</string>
+    <string name="entrez_votre_nom">Introduzca su Nombre :</string>
+    <string name="commencer">Comenzar</string>
+
+    <string name="extrait_n">Extracto n°</string>
+    <string name="blanche_neige">Blanca Nieve</string>
+    <string name="mulan">Mulan</string>
+    <string name="le_roi_lion">El Rey León</string>
+    <string name="hercule">Hercule</string>
+    <string name="play">play</string>
+    <string name="scores">Scores</string>
+    <string name="sur_10">de 10</string>
+    <string name="pause">pause</string>
+    <string name="score">Score</string>
+    <string name="difficult">dificultad</string>
+    <string name="facile">fácil</string>
+    <string name="intermediaire">medio</string>
+    <string name="difficile">duro</string>
+
+
+</resources>

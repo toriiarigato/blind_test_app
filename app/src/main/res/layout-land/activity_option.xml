@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Langues"
+    android:background="@drawable/bg4land">
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="404dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="164dp"
+        android:fontFamily="@font/wds052801"
+        android:text="@string/langues"
+        android:textAlignment="center"
+        android:textColor="#feb6c2"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnEng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnFran"
+        android:layout_width="197dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="119dp"
+        android:fontFamily="@font/candybeans"
+        android:text="@string/francais"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#f4acb8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnEng"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titre" />
+
+    <Button
+        android:id="@+id/btnEng"
+        android:layout_width="197dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="97dp"
+        android:fontFamily="@font/candybeans"
+        android:text="@string/anglais"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#f4acb8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnEsp"
+        app:layout_constraintStart_toEndOf="@+id/btnFran"
+        app:layout_constraintTop_toBottomOf="@+id/titre" />
+
+    <Button
+        android:id="@+id/btnEsp"
+        android:layout_width="197dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="97dp"
+        android:fontFamily="@font/candybeans"
+        android:text="@string/espagnol"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#f4acb8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnEng"
+        app:layout_constraintTop_toBottomOf="@+id/titre" />
+
+    <ImageView
+        android:id="@+id/quitter"
+        android:layout_width="95dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="632dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/quitter"
+        android:onClick="clicQuitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEsp"
+        app:srcCompat="@drawable/quitter"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/retour"
+        android:layout_width="77dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="638dp"
+        android:contentDescription="@string/retour"
+        android:onClick="clickRetour"
+        app:layout_constraintBottom_toTopOf="@+id/retourText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/retour"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/retourText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="160dp"
+        android:fontFamily="@font/candybeans"
+        android:text="@string/retour"
+        android:textColor="#feb6c2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFran"
+        app:layout_constraintEnd_toStartOf="@+id/titre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/retour" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
